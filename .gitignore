@@ -1,0 +1,43 @@
+# Node dependencies
+node_modules/
+
+# TypeScript build output
+dist/
+build/
+out/
+*.js
+*.js.map
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Temporary / backup files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Ignore AoC input backups or accidental files
+**/input-backup*.txt
